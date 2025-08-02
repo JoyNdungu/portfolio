@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joy Ndungu | Portfolio</title>
+    <meta
+      name="description"
+      content="Joy's portfolio showcasing web development skills and creative solutions."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-container">
+        <div class="nav-brand">Joy Ndungu</div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="nav-toggle" id="nav-toggle">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+     
+
+
+
+        <h1 class="hero-title">
+          Passionate <span class="text-gradient">Web-Developer</span>
+        </h1>
+        <p class="hero-description">
+          Code meets purpose. Creating clean, accessible interfaces that truly
+          connect with users
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="floating-elements">
+        <div class="float-element float-1"></div>
+        <div class="float-element float-2"></div>
+        <div class="float-element float-3"></div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <h3 class="about-subtitle">Web Developer & Tech Enthusiast</h3>
+            <p>
+              I’m Joy Gathoni Ndungu, a dedicated web developer with a
+              background in Business Information Technology and a strong focus
+              on frontend development. I enjoy transforming ideas into
+              interactive digital experiences using React, JavaScript, and
+              modern tools.
+            </p>
+            <p>
+              I am currrently enhancing my Backend skills with Node.js and
+              MongoDB, and I’m always eager to learn new technologies that can
+              improve my development process.
+            </p>
+            <p>
+              Whether it's building functional interfaces or exploring new APIs,
+              I bring creativity and problem-solving to every project. I’m also
+              passionate about empowering communities through tech — especially
+              in sustainability and mental health.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number">1+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Dedication</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="profile-pic">
+              <img
+                src="joy.jpg"
+                width="100%"
+                height="100%"
+                alt="Joy's Image"
+                class="image-placeholder"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="category-title">Frontend</h3>
+            <div class="skill-items">
+              <div class="skill-item">React</div>
+              <div class="skill-item">JavaScript</div>
+              <div class="skill-item">TypeScript</div>
+              <div class="skill-item">Tailwind CSS</div>
+              <div class="skill-item">HTML/CSS</div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="category-title">Backend</h3>
+            <div class="skill-items">
+              <div class="skill-item">Node.js</div>
+              <div class="skill-item">MongoDB</div>
+              <div class="skill-item">Express.js</div>
+              <div class="skill-item">SQL</div>
+              <div class="skill-item">Python</div>
+              <div class="skill-item">php</div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="category-title">Tools & Others</h3>
+            <div class="skill-items">
+              <div class="skill-item">Git & GitHub</div>
+              <div class="skill-item">Figma</div>
+              <div class="skill-item">Postman</div>
+              <div class="skill-item">VS Code</div>
+              <div class="skill-item">Vite</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">E-Commerce</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Mavazi Luxe</h3>
+              <p class="project-description">
+                An inclusive e-commerce platform designed to make shopping for
+                clothes easier, especially for the elderly. Features enhanced
+                accessibility tools such as voice-friendly UI, high-contrast
+                themes, and simplified navigation.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Accessibility</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">Web App</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Boresha Power</h3>
+              <p class="project-description">
+                A web app that tracks household energy usage and alerts users
+                when thresholds are exceeded using Africa’s Talking API.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">Dashboard</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">SurplusSoko Admin Panel</h3>
+              <p class="project-description">
+                An admin dashboard for managing farmer and buyer data in a
+                sustainable agritech platform.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Vite</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">Mental Health</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">MoyoCheck</h3>
+              <p class="project-description">
+                A student-focused mental health initiative using tech to help
+                users check in with their emotional well-being.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">TailwindCSS</span>
+                <span class="tech-tag">APIs</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3 class="contact-subtitle">Let’s Connect</h3>
+            <p>
+              Whether you have a project idea, want to collaborate, or just want
+              to say hi — I’d love to hear from you!
+            </p>
+            <div class="contact-items">
+              <div class="contact-item">
+                <strong>Email:</strong> tessagrandeur@gmail.com
+              </div>
+              <div class="contact-item">
+                <strong>Phone:</strong> +254 799 490 409
+              </div>
+              <div class="contact-item">
+                <strong>Location:</strong> Nairobi, Kenya
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">Joy Gathoni Ndungu</div>
+          <p class="footer-description">
+            Empowering lives through creative and functional tech.
+          </p>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-bottom">
+            <p>
+              &copy; 2025 Joy Gathoni Ndungu. Built with love for tech and
+              purpose.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const navToggle = document.getElementById("nav-toggle");
+      const navMenu = document.getElementById("nav-menu");
+      navToggle.addEventListener("click", () =>
+        navMenu.classList.toggle("active")
+      );
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+          navMenu.classList.remove("active");
+        });
+      });
+
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert("Thanks, Tessa will get back to you soon!");
+          this.reset();
+        });
+
+      window.addEventListener("scroll", () => {
+        const sections = document.querySelectorAll("section[id]");
+        const navLinks = document.querySelectorAll(".nav-link");
+        let current = "";
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          if (scrollY >= sectionTop - 200) current = section.getAttribute("id");
+        });
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === `#${current}`)
+            link.classList.add("active");
+        });
+      });
+
+      document.addEventListener("mousemove", (e) => {
+        const star = document.createElement("div");
+        star.className = "emoji-star";
+        star.innerText = "✨";
+        star.style.left = `${e.pageX}px`;
+        star.style.top = `${e.pageY}px`;
+        document.body.appendChild(star);
+
+        setTimeout(() => {
+          star.remove();
+        }, 700); // Remove after 0.7s
+      });
+
+    
+    </script>
+  </body>
+</html>
