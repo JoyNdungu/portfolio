@@ -28,7 +28,7 @@ If you'd like to reach out or collaborate, feel free to contact me via:
 
 Email: tessagrandeur@gmail.com
 
-LinkedIn: in/ndung-u-joy-gathoni-5682aa355
+LinkedIn: https://www.linkedin.com/in/ndung-u-joy-gathoni-5682aa355/
 
 GitHub: https://github.com/JoyNdungu
 
