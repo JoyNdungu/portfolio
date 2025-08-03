@@ -32,4 +32,6 @@ LinkedIn: https://www.linkedin.com/in/ndung-u-joy-gathoni-5682aa355/
 
 GitHub: https://github.com/JoyNdungu
 
+Live Portfolio : https://portfolio-joy-ndungus-projects.vercel.app/
+
 Thank you for viewing my portfolio!
